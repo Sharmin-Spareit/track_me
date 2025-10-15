@@ -9,45 +9,36 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  # State Management
   flutter_riverpod: ^2.5.1
   riverpod_annotation: ^2.3.5
-
-  # Local Storage
   hive: ^2.2.3
   hive_flutter: ^1.1.0
-
-  # Network & API
   dio: ^5.4.3+1
-
-  # JSON & Code Generation
   freezed_annotation: ^2.4.1
   json_annotation: ^4.9.0
-
-  # Location Services
   geolocator: ^12.0.0
-  
-  # Permissions
   permission_handler: ^11.3.1
-
-  # UI
   cupertino_icons: ^1.0.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  # Code Generation
   build_runner: ^2.4.9
   freezed: ^2.5.2
   json_serializable: ^6.8.0
   hive_generator: ^2.0.1
   riverpod_generator: ^2.4.0
   riverpod_lint: ^2.3.10
-
-  # Linting
   flutter_lints: ^3.0.0
 
 flutter:
-  uses-material-design: true  
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700

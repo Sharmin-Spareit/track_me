@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "48004070355",
+    "project_id": "track-me-e1a64",
+    "storage_bucket": "track-me-e1a64.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48004070355:android:ccee058ac362fde7e98d26",
+        "android_client_info": {
+          "package_name": "com.example.track_me"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3XPkf0QT5ukNk-r18OI345w64jjWNbFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
